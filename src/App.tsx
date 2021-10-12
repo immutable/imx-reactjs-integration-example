@@ -1,5 +1,7 @@
 import './App.css';
-import { Link, ImmutableXClient, ImmutableMethodResults} from '@imtbl/imx-sdk';
+import { ImmutableXClient } from '@imtbl/imx-link-lib';
+import { Link } from '@imtbl/imx-link-sdk';
+import { ImmutableMethodResults} from '@imtbl/imx-link-types';
 import { useEffect, useState } from 'react';
 import Marketplace from './Marketplace';
 import Inventory from './Inventory';
